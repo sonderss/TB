@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" type="text/css" href="font_1255618_nws7bx6sshi/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="font_eg3ev64hp1p/iconfont.css"/>
+		<script src="js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lunboFZ.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="header-top">
+				<div class="left-header">
+					<ul class="dalu">
+						<li><a href="#" class="first">中国大陆<span class="iconfont icon-xiangshangjiantouarrowup xiajiantou"></span></a></li>
+						<li ><a href="" class="teshu">亲，登录</a><span class="nerver"></span></li>
+						<li><a href="register.html" class="zhuce">免费注册</a></li>
+						<li><a href="#">手机逛淘宝</a></li>
+					</ul>
+					<!--登陆后显示的列表-->
+					 <ul class="loginEnd">
+					 	 <li class="imgLogin"><img src="img/toux.jpg"/></li>
+					 	 <li class="zhanghao"><a href="#" class="guanli">账号管理</a><span>|</span></li>
+					 	 <li><a href="" class="out">退出</a></li>
+					 	 <p class="yi">淘气值 :800</p>
+					 	 <p class="two">普通会员</p>
+					 	 <li class="lastLo">查看你的专属权益</li>
+					 </ul>
+					<!--第一个下拉列表-->
+					<ul class="diqu">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="right-header">
+					<ul class="gouwu">
+						<li><a href="index.html" class="myTB">我的淘宝<span class="iconfont icon-xiangshangjiantouarrowup xiajiantou"></span></a></li>
+						<li><a href="shopCar.html"><span class="iconfont icon-buy-car"></span>购物车<i class="num">0</i><span class="iconfont icon-xiangshangjiantouarrowup buynum"></span></a></li>
+						<li><a href="#" class="shoucangjia"><span class="iconfont icon-shoucang-active"></span>收藏夹<span class="iconfont icon-xiangshangjiantouarrowup xiajiantou"></span></a></li>
+						<li class="fenlei"><a href="#" class="nb">商品分类</a></li>
+						<li><a href="#" class="qncenter">千牛卖家中心<span class="iconfont icon-xiangshangjiantouarrowup mai"></span></a></li>
+						<li><a href="#" class="lianxi">联系客服<span class="iconfont icon-xiangshangjiantouarrowup xiajiantou"></span></a></li>
+						<li><a href="#" class="webNav"><span class="iconfont icon-fenlei"></span>网站导航<span class="iconfont icon-xiangshangjiantouarrowup xiajiantou"></span></a></li>
+					</ul>
+					<!--我的淘宝下面的列表-->
+					<ul class="baby">
+						<li class="baby-a">已买到的宝贝</li>
+						<li class="baby-b">我的足迹</li>
+					</ul>
+					<!--收藏夹 下的列表-->
+					<ul class="shoucang">
+						<li class="shoucang-a">收藏的宝贝</li>
+						<li class="shoucang-b">收藏的店铺</li>
+					</ul>
+					<!--千牛卖家中心下的列表-->
+					<ul class="qianniu">
+						<li>免费开店</li>
+						<li>已卖出的宝贝</li>
+						<li>出售中的宝贝</li>
+						<li>卖家服务市场</li>
+						<li>卖家培训中心</li>
+						<li>体验中心</li>
+						<li>问商友</li>
+					</ul>
+					<!--联系客服下的列表-->
+					<ul class="connect">
+						<li class="connect-a">消费者客服</li>
+						<li class="connect-b">卖家客服</li>
+					</ul>
+				</div>
+				<!--网站导航的列表-->
+				<ul class="zhuti">
+					<li  class="title"><h3>主题市场</h3></li>
+					<li><span>1</span><i></i><span>2</span><span>3</span><span>4</span></li>
+					<li><span>1</span><span>2</span><span>3</span><span>4</span></li>
+					<li><span>1</span><span>2</span><span>3</span><span>4</span></li>
+					<li><span>1</span><span>2</span><span>3</span><span>4</span></li>
+					<li><span>1</span><span>2</span><span>3</span><span>4</span></li>
+					<li><span>1</span><span>2</span><span>3</span><span>4</span></li>
+					<li><span>1</span><span>2</span><span>3</span><span>4</span></li>
+					<li><span>1</span><span>2</span><span>3</span><span>4</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+				</ul>
+				<ul class="zhuti tese">
+					<li  class="title"><h3>特色市场</h3></li>
+					<li><span>1</span><span>2</span><span>3</span><i></i></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><i></i><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span></li>
+					
+				</ul>
+				<ul class="zhuti ali">
+					<li  class="title"><h3>阿里APP</h3></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span><b></b><span>3</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span><span>3</span></li>
+					<li><span>1</span><span>2</span></li>
+					
+				</ul>
+				<ul class="zhuti jingcai">
+					<li  class="title"><h3>精彩推荐集</h3></li>
+					<li><span>1</span><span>2</span><span>3</span><span>4</span></li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="logo-bg">
+			<div class="logo">
+				<h2><img src="img/1.png"/></h2>
+				<div class="middle">
+					<p class="middle-top"><span class="tsStyle">宝贝</span><span>天猫</span><span>店铺</span></p>
+			        <div class="search">
+			        	<span class="iconfont icon-sousuo"></span>
+			        	<span class="iconfont icon-xiangji"></span>
+			        	<input type="text" name="txt" id="txt" value="" placeholder="民族风"/>
+			        	<button class="btn">搜索</button>
+			        </div>
+			      	<p class="middle-bom"><span>宝贝</span><span>天猫</span><span>店铺</span></p>
+			       
+				</div>
+			    <div class="phoneTB">
+			    	<span class="iconfont icon-guanbi1"></span>
+			    	<span class="donlond">手机淘宝</span>
+			    	<img src="img/phTB.png" class="phTB"/>
+			    </div>
+			</div>
+		</div>
+		<!--导航列表-->
+		<div class="TBindixNav">
+		 	<div class="TBNav">
+		 	  	<div class="zhutiNav">主题市场</div>
+		 	  	<ul class="TMshop">
+		 	  		<li>聚划算</li>
+		 	  		<li>天猫超市</li>
+		 	  	</ul>
+		 	  	<ul class="TQshop">
+		 	  		<li class="TQline"></li>
+		 	  		<li>淘抢购</li>
+		 	  		<li>电器城</li>
+		 	  		<li>司法拍卖</li>
+		 	  		<li>淘宝心选</li>
+		 	  		<li>兴农扶贫</li>
+		 	  		<li class="TQline"></li>
+		 	  	</ul>
+		 	  	<ul class="FZshop">
+		 	  		<li>飞猪旅行</li>
+		 	  		<li>智能生活</li>
+		 	  		<li>苏宁易购</li>
+		 	  	</ul>
+		 	</div>
+		</div>
+		<!--主题列表-->
+		<div class="TBindixMidle">
+			<!--左边-->
+			<div class="TBM-left">
+				<div class="GDlist">
+					<ul class="Gdlist-ul">
+						<!--<li><a href="#">女装</a> / <a href="#">男装</a> / <a href="#">内衣</a><span>&gt;</span></li>-->
+						
+					</ul>
+				</div>
+				<!--二级页面-->
+				<div class="erji">
+					<li><a href="shoplist.html">女装</a> / <a href="shoplist.html">男装</a> / <a href="#">内衣</a><span>&gt;</span></li>
+				</div>
+				<!--轮播图-->
+				<div class="lunbo">
+					<ul class="lunbo-box">
+						<li><img src="img/5.png"/></li>
+						<li><img src="img/4.png"/></li>
+						<li><img src="img/3.jpg"/></li>
+						<li><img src="img/bushang.jpg"/></li>
+						<li><img src="img/bushang2.jpg"/></li>
+						<li><img src="img/5.png"/></li>
+					</ul>
+				    <!--小标识-->
+					<ul class="lunbo-BS">
+						<li class="hover"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<!--轮播按钮-->
+					<div id="osp">
+						<span class="lunbo-btn1">&lt</span>
+						<span class="lunbo-btn2">&gt</span>
+					</div>
+				</div>
+				<!--banner-->
+				<div class="BNright"><img src="img/te.jpg_290x290q90.jpg_.webp"/></div>
+				<!--轮播图下面的展示区域-->
+				<div class="lunbo-buttom">
+					<div class="TM-lunbo">
+						<span class="iconfont icon-tianmao1"></span>
+						<img src="img/TMlogo.png"/>
+						<p>理想生活上天猫</p>
+						<!--数字-->
+						<ul class="TM-num">
+					    	 <li class="TM-index">1</li>
+					    	 <li>/5</li>
+						</ul>
+					</div>
+					<!--随轮播动的长条-->
+					<ul class="TM-ct">
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						
+					</ul>
+					<div class="TM-lbtu">
+						<ul class="TM-obj">
+						   <li>
+						     <img src="img/TM-3.jpg" alt="" />
+						     <img src="img/TM-2.jpg" alt="" />
+						   </li>
+						   <li>
+						   		<img src="img/TM-6.jpg" alt="" />
+						     	<img src="img/tm-8.jpg" alt="" />	
+						   </li>
+						   <li>
+						   		<img src="img/tm-10.jpg" alt="" />
+						     	<img src="img/tm-11.jpg" alt="" />	
+						   </li>
+						   <li>
+						     <img src="img/tm-12.jpg" alt="" />
+						     <img src="img/tm-13.jpg" alt="" />
+						   </li>
+						    <li>
+						     <img src="img/tm-14.jpg" alt="" />
+						     <img src="img/tm-12.jpg" alt="" />
+						   </li>
+						   <li>
+						     <img src="img/TM-3.jpg" alt="" />
+						     <img src="img/TM-2.jpg" alt="" />
+						   </li>
+						  
+						</ul>
+						<!--轮播按钮-->
+						<div id="osp">
+							<!--<span class="lunbo-btn1">&lt</span>
+							<span class="lunbo-btn2">&gt</span>-->
+						</div>
+					</div>
+				</div>
+				<!--banner下面的banner-->
+				<div class="BTright">
+					<p>今日热卖</p>
+					<img src="img/dazhe.jpg"/>
+				</div>
+				<!--轮播下面-->
+				<div class="toutiao">
+					<div class="toutiao-left">
+						<img src="img/TB-213.png"/>
+						<p>让你的生活更有趣</p>
+					</div>
+					<div class="toutiao-right">
+						<img src="img/TB-qwe.png"/>
+						<p>企鹅王群二无群群群群无群群群企鹅王群二无群群二无群二群</p>
+					</div>
+				</div>
+			</div>
+			<!--右边-->
+			<div class="TBM-right">
+				<div class="GR-mesg">
+					<img src="img/toux.jpg"/>
+					<p>hi <span class="userName">请登录</span></p>
+					<div class="jinbi">
+						<div class="jinbi-1">领取金币抵钱</div>
+						<div class="jinbi-2">会员俱乐部</div>
+					</div>
+					<ul class="xinxi">
+						<li><p>0</p><p>待收货</p></li>
+						<li><p>0</p><p>待发货</p></li>
+						<li><p  class="countIndex">0</p><p class="countIndex1">待付款</p></li>
+						<li><p>0</p><p>待评价</p></li>
+					</ul>
+				</div>
+				<div class="GR-jB"><a href="#">网上有害信息举报专区</a></div>
+				<ul class="GR-list">
+					<li>公告</li><p>聚划算产业带计划成功造星 618这百大品牌热销 天猫618定制礼盒走俏 百大产业带品牌卖爆了</p>
+					<li>规则</li>
+					<li>论坛</li>
+					<li>安全</li>
+					<li>公益</li>
+				</ul>
+				<div class="table">
+					<ul>
+						<li><span class="iconfont icon-shouji"></span><p>充话费</p></li>
+						<li><span class="iconfont icon-feizhu"></span><p>飞猪</p></li>
+						<li><span class="iconfont icon-dianying1"></span><p>电影</p></li>
+						<li><span class="iconfont icon-subway"></span><p>火车票</p></li>
+						<li><span class="iconfont icon-shuidian"></span><p>水电</p></li>
+						<li><span class="iconfont icon-shouji"></span><p>充话费</p></li>
+						<li><span class="iconfont icon-feizhu"></span><p>飞猪</p></li>
+						<li><span class="iconfont icon-dianying1"></span><p>电影</p></li>
+						<li><span class="iconfont icon-subway"></span><p>火车票</p></li>
+						<li><span class="iconfont icon-shuidian"></span><p>水电</p></li>
+						<li><span class="iconfont icon-shouji"></span><p>充话费</p></li>
+						<li><span class="iconfont icon-feizhu"></span><p>飞猪</p></li>
+					</ul>
+				</div>
+				<h2>阿里APP<span>更多></span></h2>
+				<div class="table2">
+					<ul>
+						<li><img src="img/a.png"/></li>
+						<li><img src="img/a.png"/></li>
+						<li><img src="img/a.png"/></li>
+						<li><img src="img/a.png"/></li>
+						<li><img src="img/a.png"/></li>
+						<li><img src="img/a.png"/></li>
+						<li><img src="img/a.png"/></li>
+						<li><img src="img/a.png"/></li>
+						<li><img src="img/a.png"/></li>
+						<li><img src="img/a.png"/></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--好货-->
+		<div class="youhaohuo">
+			<div class="yhh_left">
+				<div class="yhh_left_p">
+					<img src="img/yhh.png"/>
+					<img src="img/m.png" class="m"/>
+					<p>与品质生活不期而遇</p>
+					<div class="yhh-pic">
+						<ul>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="yhh_right">
+				<div class="yhh_left_p">
+					<img src="img/yhh.png"/>
+					<img src="img/m.png" class="m"/>
+					<p>与品质生活不期而遇</p>
+			
+				<div class="yhh-pic">
+						<ul>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+							<li>
+								<img src="img/tm-10.jpg"/>
+								<p>ABCDRG</p>
+								<p>ABCDRG</p>
+								<span>123213</span>
+							</li>
+						</ul>
+					</div>
+			    </div>
+			</div>
+		</div>
+		<!--四驱赛车-->
+		<div class="rach">
+			<img src="img/siqu.jpg"/>
+		</div>
+		<!--直播好店-->
+		<div class="showing">
+			<div class="showing-left">
+				<div class="showing-head">
+					<img src="img/day.png"/>
+					<p>发现深藏好店</p>
+				</div>
+				<h6>今日推荐1天23143214</h6>
+				<ul>
+					<li><img src="img/wqe.png"/></li>
+					<li><p><img src="img/tm-10.jpg"/></p><p><img src="img/tm-10.jpg"/></p></li>
+					<li class="mi"><img src="img/wqe.png"/></li>
+				</ul>
+				<p class="k"><img src="img/tm-11.jpg"/></p>
+				<p class="k"><img src="img/tm-11.jpg"/></p>
+			</div>
+			<div class="showing-right">
+				<div class="showing-head">
+					<img src="img/tn-pic.png"/>
+					<p>发现你的爱豆</p>
+				</div>
+				<h6>今日推荐1天3213213</h6>
+				<ul>
+					<li><img src="img/wqe.png"/></li>
+					<li><p><img src="img/tm-10.jpg"/></p><p><img src="img/tm-10.jpg"/></p></li>
+					<li class="mi"><img src="img/wqe.png"/></li>
+				</ul>
+				<p class="k"><img src="img/tm-11.jpg"/></p>
+				<p class="k"><img src="img/tm-11.jpg"/></p>
+			</div>
+		</div>
+		<!--热卖单品-->
+		<div class="hotM">
+			<h4>热卖单品</h4>
+			<ul class="lol">
+				<li>零食</li>
+				<li>服装</li>
+				<li>电器</li>
+				<li>办公</li>
+				<li>巴拉</li>
+			</ul>
+			<!--列表-->
+			<ul class="final">
+				<li>
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				<li>
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				<li>
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				<li>
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				<li>
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				<li>
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				<li class="yyy">
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				<li>
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				<li>
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				<li>
+					<img src="img/bushang.jpg"/>
+					<p>2131322132113213weqewqqewqeqewqewqewqewqewqewqewqwwqewq21</p>
+					<span>评价   232132  收藏   321323</span>
+					<h5>￥ 2133</h5>
+				</li>
+				
+			</ul>
+		</div>
+		<!--底部导航-->
+	    <div class="bala">
+		  <div class="buttom">
+		  	 	<ul class="dibu">
+		  	 		<li><a	href="#">阿里巴巴集团</a></li>
+					<li><a	href="#">阿里巴巴国际站</a></li>
+					<li><a	href="#">阿里巴巴中国站</a></li>
+					<li><a	href="#">全球速卖通</a></li>
+					<li><a	href="#">淘宝网</a></li>
+					<li><a	href="#">天猫</a></li>
+					<li><a	href="#">聚划算</a></li>
+					<li><a	href="#">一淘</a></li>
+					<li><a	href="#">阿里妈妈</a></li>
+					<li><a	href="#">飞猪</a></li>
+					<li><a	href="#">虾米</a></li>
+					<li><a	href="#">阿里云计算</a></li>
+					<li><a	href="#">云OS</a></li>
+					<li><a	href="#">万网</a></li>
+					<li><a	href="#">支付宝</a></li>
+					<li><a	href="#" class="last">来往</a></li>
+						<li><a	href="#">淘宝网</a></li>
+					<li><a	href="#">天猫</a></li>
+					<li><a	href="#">聚划算</a></li>
+					<li><a	href="#">一淘</a></li>
+					<li><a	href="#">阿里妈妈</a></li>
+					<li><a	href="#">飞猪</a></li>
+					<li><a	href="#">虾米</a></li>
+					<li><a	href="#">阿里云计算</a></li>
+					<li><a	href="#">云OS</a></li>
+					<li><a	href="#">万网</a></li>
+					<li><a	href="#">支付宝</a></li>
+					<li><a	href="#" class="last">来往</a></li>
+		  		 </ul>
+		  	    <ul class="dier">
+		  	    	<li><a	href="#">关于淘宝</a></li>
+					<li><a	href="#">合作中心</a></li>
+					<li><a	href="#">营销中心</a></li>
+					<li><a	href="#">廉政举报</a></li>
+					<li><a	href="#">联系客服</a></li>
+					<li><a	href="#">开方平台</a></li>
+					<li><a	href="#">诚征英才</a></li>
+					<li><a	href="#">联系我们</a></li>
+					<li><a	href="#">网站底图</a></li>
+					<li><a	href="#">法律声明</a></li>
+					<li><a	href="#">隐私权政策</a></li>
+					<p>&copy;2019 Taobao.com 版权所有</p>
+		  	    </ul>
+		  	    <ul class="dier">
+		  	    	<li><a	href="#">关于淘宝</a></li>
+					<li><a	href="#">合作中心</a></li>
+					<li><a	href="#">营销中心</a></li>
+					<li><a	href="#">廉政举报</a></li>
+					<li><a	href="#">联系客服</a></li>
+					<li><a	href="#">开方平台</a></li>
+					<li><a	href="#">诚征英才</a></li>
+					<li><a	href="#">联系我们</a></li>
+					<li><a	href="#">网站底图</a></li>
+					<li><a	href="#">法律声明</a></li>
+					<li><a	href="#">隐私权政策</a></li>
+					<p>&copy;2019 Taobao.com 版权所有</p>
+		  	    </ul>
+		  	    <ul class="dier">
+		  	    	<li><a	href="#">关于淘宝</a></li>
+					<li><a	href="#">合作中心</a></li>
+					<li><a	href="#">营销中心</a></li>
+					<li><a	href="#">廉政举报</a></li>
+					<li><a	href="#">联系客服</a></li>
+					<li><a	href="#">开方平台</a></li>
+					<li><a	href="#">诚征英才</a></li>
+					<li><a	href="#">联系我们</a></li>
+					<li><a	href="#">网站底图</a></li>
+					<li><a	href="#">法律声明</a></li>
+					<li><a	href="#">隐私权政策</a></li>
+					<p>&copy;2019 Taobao.com 版权所有</p>
+		  	    </ul>
+		  </div>
+	    </div>
+	    <div class="ddd">	
+	       <div class="haohuo bbb">
+	       	     爱逛好货
+	       </div>
+	        <div class="haohuo7"  >
+	       	    好店直播
+	       </div>
+	        <div class="haohuo1"  >
+	       	    品质特色
+	       </div>
+	        <div class="haohuo2"  >
+	       	     实惠热卖
+	       </div>
+	        <div class="haohuo3" >
+	       	     猜你喜欢
+	       </div>
+	        <div class="haohuo4" >
+	       	     顶部
+	       </div>
+	        <div class="haohuo5" >
+	       	    反馈
+	       </div>
+	        <div class="haohuo6" >
+	       	    暴恐举报
+	       </div>
+	    </div>
+	</body>
+</html>
